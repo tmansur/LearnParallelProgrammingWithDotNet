@@ -10,7 +10,8 @@ namespace Parallel.Programing.Examples._1.TaskProgramming
     {
         public static void TaskProgrammingMain()
         {
-            CreateAndStartingTasks.Execute();            
+            //CreateAndStartingTasks.Execute();     
+            CancellingTasks.Execute();
         }        
     }
 }
