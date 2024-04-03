@@ -13,6 +13,11 @@ namespace Parallel.Programing.Examples._1.TaskProgramming
             var cts = new CancellationTokenSource();
             var token = cts.Token;
 
+            token.Register(() =>
+            {
+                Console.WriteLine("Cancelation has been requested.");
+            });
+
             var t = new Task(() =>
             {
                 int i = 0;
@@ -20,9 +25,14 @@ namespace Parallel.Programing.Examples._1.TaskProgramming
                 while (true)
                 {
                     if (token.IsCancellationRequested)
-                        break;
+                        //break; //soft exit
+                        throw new OperationCanceledException();
                     else
                         Console.WriteLine($"{i++}\t");
+                    
+                    // Mesmo comportamento do if anterior mas escrito de outra maneira
+                    //token.ThrowIfCancellationRequested();
+                    //Console.WriteLine($"{i++}\t");
                 }
             }, token);
 
