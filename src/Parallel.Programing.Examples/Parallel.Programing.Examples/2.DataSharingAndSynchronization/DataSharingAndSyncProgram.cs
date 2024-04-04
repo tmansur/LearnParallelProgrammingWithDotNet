@@ -15,7 +15,8 @@ namespace Parallel.Programing.Examples._2.DataSharingAndSynchronization
     {
         public static void DataSharingAndSyncMain()
         {
-            CriticalSections.Execute();
+            //CriticalSections.Execute();
+            InterlockedOperations.Execute();
         }
     }
 }
