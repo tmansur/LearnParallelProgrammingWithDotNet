@@ -11,7 +11,8 @@ namespace Parallel.Programing.Examples._1.TaskProgramming
         public static void TaskProgrammingMain()
         {
             //CreateAndStartingTasks.Execute();     
-            CancellingTasks.Execute();
+            //CancellingTasks.Execute();
+            WaitingForTimeToPass.Execute();
         }        
     }
 }
