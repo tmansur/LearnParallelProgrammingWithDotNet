@@ -1,4 +1,5 @@
 ﻿using Parallel.Programing.Examples._1.TaskProgramming;
+using Parallel.Programing.Examples._2.DataSharingAndSynchronization;
 
 namespace Parallel.Programing.Examples
 {
@@ -7,6 +8,7 @@ namespace Parallel.Programing.Examples
         static void Main(string[] args)
         {
             TaskProgrammingProgram.TaskProgrammingMain();
+            DataSharingAndSyncProgram.DataSharingAndSyncMain();
         }
     }
 }
