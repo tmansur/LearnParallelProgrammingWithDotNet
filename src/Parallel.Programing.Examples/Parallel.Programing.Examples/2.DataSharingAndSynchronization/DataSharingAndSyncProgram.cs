@@ -19,7 +19,7 @@ namespace Parallel.Programing.Examples._2.DataSharingAndSynchronization
             //InterlockedOperations.Execute();
             //SpinLockingAndLockRecursion.Execute();
             //MutexSynchronization.Execute();
-            ReaderWriterLocks.Execute();
+            //ReaderWriterLocks.Execute();
         }
     }
 }
