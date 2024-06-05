@@ -1,10 +1,14 @@
 ﻿namespace Parallel.Programing.Examples._3.ConcurrentCollections
 {
-    public static class ConcurrentCollectionsProgram
+  public static class ConcurrentCollectionsProgram
+  {
+    public static void ConcurrentCollectionsProgramMain()
     {
-        public static void ConcurrentCollectionsProgramMain()
-        {
-            ConcurrentDic.Execute();
-        }
+      //ConcurrentDic.Execute();
+      //ConcurrentQueue.Execute();
+      //ConcurrentStack.Execute();
+      //ConcurrentBag.Execute();
+      BlockingCollection.Execute();
     }
+  }
 }
