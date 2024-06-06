@@ -6,7 +6,10 @@
     {
       //Continuations.Execute();
       //ChildTask.Execute();
-      BarrierTasks.Execute();
+      //BarrierTasks.Execute();
+      //CountdownEventTasks.Execute();
+      //ManualResetEventAndAutoResetEvent.Execute();
+      SemaphoreSlimTasks.Execute();
     }
   }
 }
