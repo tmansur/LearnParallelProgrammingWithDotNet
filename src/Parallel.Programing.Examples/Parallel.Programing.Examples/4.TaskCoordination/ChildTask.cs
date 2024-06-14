@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parallel.Programing.Examples._4.TaskCoordination
+namespace Parallels.Programing.Examples._4.TaskCoordination
 {
   public static class ChildTask
   {

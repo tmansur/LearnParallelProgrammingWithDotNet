@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace Parallel.Programing.Examples._3.ConcurrentCollections
+namespace Parallels.Programing.Examples._3.ConcurrentCollections
 {
   /// <summary>
   /// It can actually block on the elements that you are consuming and not let you add anu more elements.

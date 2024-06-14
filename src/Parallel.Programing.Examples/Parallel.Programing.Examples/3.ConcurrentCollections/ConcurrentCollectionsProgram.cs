@@ -1,4 +1,4 @@
-﻿namespace Parallel.Programing.Examples._3.ConcurrentCollections
+﻿namespace Parallels.Programing.Examples._3.ConcurrentCollections
 {
   public static class ConcurrentCollectionsProgram
   {

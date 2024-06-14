@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parallel.Programing.Examples._3.ConcurrentCollections
+namespace Parallels.Programing.Examples._3.ConcurrentCollections
 {
   /// <summary>
   /// Pilha (F.I.L.O.)

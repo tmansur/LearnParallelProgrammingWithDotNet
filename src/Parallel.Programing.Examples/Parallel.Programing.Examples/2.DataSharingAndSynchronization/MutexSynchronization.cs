@@ -1,5 +1,5 @@
 ﻿
-namespace Parallel.Programing.Examples._2.DataSharingAndSynchronization
+namespace Parallels.Programing.Examples._2.DataSharingAndSynchronization
 {
     internal class MutexSynchronization
     {

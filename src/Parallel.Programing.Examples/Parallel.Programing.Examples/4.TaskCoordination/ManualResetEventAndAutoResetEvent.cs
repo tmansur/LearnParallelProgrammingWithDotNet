@@ -1,5 +1,5 @@
 ﻿
-namespace Parallel.Programing.Examples._4.TaskCoordination
+namespace Parallels.Programing.Examples._4.TaskCoordination
 {
   internal class ManualResetEventAndAutoResetEvent
   {

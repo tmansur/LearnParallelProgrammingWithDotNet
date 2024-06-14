@@ -1,5 +1,5 @@
 ﻿
-namespace Parallel.Programing.Examples._1.TaskProgramming
+namespace Parallels.Programing.Examples._1.TaskProgramming
 {
     public static class WaitingForTimeToPass
     {

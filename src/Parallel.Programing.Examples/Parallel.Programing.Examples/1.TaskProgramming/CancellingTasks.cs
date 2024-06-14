@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parallel.Programing.Examples._1.TaskProgramming
+namespace Parallels.Programing.Examples._1.TaskProgramming
 {
     public static class CancellingTasks
     {
