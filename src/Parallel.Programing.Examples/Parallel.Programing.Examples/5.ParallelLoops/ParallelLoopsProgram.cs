@@ -10,7 +10,10 @@ namespace Parallels.Programing.Examples._5.ParallelsLoops
   {
     public static void ParallelsLoopsMain()
     {
-      ParallelInvokeForAndForeach.Execute();
+      //ParallelInvokeForAndForeach.Execute();
+      //BreakingCancellationsAndExceptions.Execute();
+      //var partitioning = new Partitioning();
+      //partitioning.Execute();
     }
   }
 }
